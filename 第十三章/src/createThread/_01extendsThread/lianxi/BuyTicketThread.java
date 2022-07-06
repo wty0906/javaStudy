@@ -1,4 +1,4 @@
-package createThread.lianxi;
+package createThread._01extendsThread.lianxi;
 
 /**
  * @author ty.wang

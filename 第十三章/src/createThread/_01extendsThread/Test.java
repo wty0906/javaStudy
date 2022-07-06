@@ -1,4 +1,4 @@
-package createThread;
+package createThread._01extendsThread;
 
 /**
  * @author ty.wang
