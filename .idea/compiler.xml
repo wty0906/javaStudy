@@ -10,5 +10,8 @@
         <module name="JDK8Demo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TestGeneric" target="16" />
+    </bytecodeTargetLevel>
   </component>
 </project>
