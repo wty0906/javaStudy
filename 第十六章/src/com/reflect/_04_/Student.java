@@ -44,7 +44,7 @@ public class Student extends Person implements MyInterface {
         return "重载方法 我是一名三好学生";
     }
 
-    public void work() {
+    private void work(int a) {
         System.out.println("我以后会找工作--》成为 码农 程序员 程序猿 程序媛");
     }
 
@@ -58,7 +58,7 @@ public class Student extends Person implements MyInterface {
 
     @MyAnnotation(value = "hello myMethod")
     @Override
-    public void myMethod() {
+    public void myMethod() throws RuntimeException {
         System.out.println("我重写了myMethod方法");
     }
 
