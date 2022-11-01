@@ -45,7 +45,5 @@ public class Test {
         System.out.println(o);
         Object o1 = constructor1.newInstance(180.0, 167.5);
         System.out.println(o1);
-
-
     }
 }
